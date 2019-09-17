@@ -11,7 +11,7 @@ class HelloFlutterApp extends StatelessWidget {
         title: "Hello Flutter App",
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Title in App Bar"),
+              title: Text("Hello Flutter App"),
             ),
             body: home()));
   }
