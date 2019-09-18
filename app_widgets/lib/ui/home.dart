@@ -76,7 +76,7 @@ class OrderButton extends StatelessWidget {
         child: RaisedButton(
           child: Text("Order your Pizza!"),
           color: Colors.lightGreen,
-          elevation: 5.0,
+          elevation: 10.0,
           onPressed: () {
             order(context);
           },
@@ -86,7 +86,7 @@ class OrderButton extends StatelessWidget {
 
   void order(BuildContext context) {
     var alert = AlertDialog(
-        title: Text("Order Completed"), content: Text("Thanks for your order"));
+        title: Text("Order Completed"), content: Text("Thanks for your order!"));
     showDialog(context: context, builder: (BuildContext context) => alert);
   }
 }
